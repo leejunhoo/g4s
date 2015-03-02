@@ -10,7 +10,7 @@ if (!trim($mb_id) || !trim($mb_password))
 /*
 // 자동 스크립트를 이용한 공격에 대비하여 로그인 실패시에는 일정시간이 지난후에 다시 로그인 하도록 함
 if ($check_time = get_session("ss_login_check_time")) {
-    if ($check_time > $g4['server_time'] - 15) {
+    if ($check_timeㅓ > $g4['server_time'] - 15) {
         alert('로그인 실패시에는 15초 이후에 다시 로그인 하시기 바랍니다.');
     }
 }
@@ -89,3 +89,4 @@ else
 
 goto_url($link);
 ?>
+repair table g4_member ;
